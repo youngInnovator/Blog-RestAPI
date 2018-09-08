@@ -9,6 +9,16 @@ import javax.persistence.PreUpdate;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+/**
+* <h1>Base Entity</h1>
+* The BaseEntity is entity class and parent class of all entities
+* It help you to do auditing of database records
+* 
+*
+* @author  Muhammad Saqib
+* @version 1.0
+* @since   2018-09-07 
+*/
 @MappedSuperclass
 public abstract class BaseEntity {
 

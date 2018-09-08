@@ -12,6 +12,16 @@ import javax.persistence.OneToMany;
 import com.blog.comment.entity.Comment;
 import com.blog.common.BaseEntity;
 
+/**
+* <h1>Post Entity</h1>
+* The Post is entity class is used to generate post table
+* It help you to interact with database.
+* 
+*
+* @author  Muhammad Saqib
+* @version 1.0
+* @since   2018-09-07 
+*/
 @Entity
 public class Post extends BaseEntity {
 

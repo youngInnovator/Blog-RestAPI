@@ -12,6 +12,16 @@ import com.blog.common.BaseEntity;
 import com.blog.post.entity.Post;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/**
+* <h1>Comment Entity</h1>
+* The Comment is entity class is used to generate comment table
+* It help you to interact with database.
+* 
+*
+* @author  Muhammad Saqib
+* @version 1.0
+* @since   2018-09-07 
+*/
 @Entity
 public class Comment extends BaseEntity {
 
@@ -70,6 +80,4 @@ public class Comment extends BaseEntity {
 	public void setPost(Post post) {
 		this.post = post;
 	}
-	
-	
 }
