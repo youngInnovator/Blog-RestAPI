@@ -1,7 +1,7 @@
-# Blog-RestAPI
-Simple Restful CRUD API for **Blog** for poc or demo
+# Blog - Rest API
+Simple Restful CRUD API for **Blog** for POC or demo
 
-## Technoliges used
+## Technologies used
 * Spring Boot
 * Spring Rest
 * Spring Data
@@ -10,16 +10,16 @@ Simple Restful CRUD API for **Blog** for poc or demo
 ## Requirements
 1. Java - 1.8.x
 2. Maven - 3.x.x
-3. Mysql - 5.x.x
+3. MySQL - 5.x.x
 
 ## Steps to Setup
 ### 1. Clone the application
   - clone this project into your local directory: 
   `git clone https://github.com/youngInnovator/Blog-RestAPI.git`
-### 2. Create Mysql database
-In order to achive persistance this project relies on MySQL.
+### 2. Create MySQL database
+In order to achieve persistence this project relies on MySQL.
 
-[MySQL](https://dev.mysql.com/downloads/) version 5.6 or better. If you have docker installed it might be useful to run the database as a [container](https://hub.docker.com/_/mysql/).
+[MySQL](https://dev.mysql.com/downloads/) version 5.6 or better. If you have Docker installed it might be useful to run the database as a [container](https://hub.docker.com/_/mysql/).
 
 Create the database for MySQL using following steps.
 ```mysql
@@ -28,9 +28,9 @@ mysql> create user 'blog'@'localhost' identified by 'blog'; -- Creates the user
 mysql> grant all on db_example.* to 'blog'@'localhost'; -- Gives all the privileges to the new user on the newly created database
 ```
 
-### 3. Change mysql username and password as per your installation
+### 3. Change MySQL username and password as per your installation
 * open `src/main/resources/application.properties`
-* change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation (if required)
+* change `spring.datasource.username` and `spring.datasource.password` as per your MySQL installation (if required)
 
 ### 4. Build and run the app using maven
   - Build the project:
