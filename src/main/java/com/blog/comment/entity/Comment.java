@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
 * <h1>Comment Entity</h1>
-* The Comment is entity class is used to generate comment table
+* The Comment is entity class used to generate comment table
 * It help you to interact with database.
 * 
 *

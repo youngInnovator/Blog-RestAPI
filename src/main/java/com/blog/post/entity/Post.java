@@ -14,7 +14,7 @@ import com.blog.common.BaseEntity;
 
 /**
 * <h1>Post Entity</h1>
-* The Post is entity class is used to generate post table
+* The Post is entity class used to generate post table
 * It help you to interact with database.
 * 
 *
