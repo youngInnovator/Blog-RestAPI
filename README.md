@@ -57,4 +57,62 @@ mysql> grant all on db_example.* to 'blog'@'localhost'; -- Gives all the privile
   ```
   mvn test
   ```
+## Explore Rest APIs
+The app defines following CRUD APIs.
+1. Get all posts
+```
+GET /blog/post/
+```
+2. Get specific post
 
+```
+GET /blog/post/{postId}
+```
+3. Add new post
+
+```
+POST /blog/post/
+```
+4. Update existing post
+
+```
+PUT /blog/post/
+```
+5. Delete specific post
+
+```
+DELETE /blog/post/{postId}
+```
+6. Get specific post comments
+
+```
+GET /blog/post/{postId}/comments
+```
+
+7. Add new comment to specific post
+
+```
+POST /blog/post/{postId}/comment
+```
+
+8. Get specific comment
+
+```
+GET /blog/comment/{commentId}
+```
+
+9. Like specific comment
+
+```
+POST /blog/comment/{commentId}/like
+```
+10. Update existing comment
+
+```
+PUT /blog/comment/
+```
+11. Delete specific comment
+
+```
+DELETE /blog/comment/{postId}
+```
